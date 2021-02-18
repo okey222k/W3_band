@@ -1,15 +1,15 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-html
-{
+
+html {
     font-family: sans-serif;
 }
-#main {
-    
-}
+
+#main {}
+
 .clear {
     clear: both;
 }
@@ -22,12 +22,12 @@ html
     left: 0;
     right: 0;
     z-index: 1;
-
 }
+
 .nav {
     display: inline-block;
-    
 }
+
 .nav>li {
     display: inline-block;
 }
@@ -35,6 +35,7 @@ html
 .nav li {
     position: relative;
 }
+
 .nav li a {
     line-height: 46.4px;
     padding: 0 24px;
@@ -45,28 +46,33 @@ html
     font-weight: 400;
     display: block;
 }
+
 .nav>li:hover>a {
     background-color: #ccc;
     color: black;
 }
-.subnav{
+
+.subnav {
     display: none;
     position: absolute;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     list-style-type: none;
-    
 }
+
 .subnav li a {
     color: #000;
 }
+
 .subnav li:hover a {
     background-color: #ccc;
     color: #000;
 }
-.nav li:hover .subnav{
-    display: block; 
+
+.nav li:hover .subnav {
+    display: block;
 }
+
 #mobile-menu,
 #search {
     float: right;
@@ -74,6 +80,7 @@ html
     top: 0;
     right: 0;
 }
+
 #mobile-menu,
 #search i {
     line-height: 46.4px;
@@ -82,20 +89,24 @@ html
     font-size: 15px;
     font-weight: 400;
 }
+
 #mobile-menu:hover {
     background-color: #ccc;
     color: #000;
 }
+
 #search:hover {
     cursor: pointer;
     background-color: #f44336;
 }
+
 #slider {
     background: url(https://www.w3schools.com/w3images/la.jpg) top center / cover no-repeat;
-    margin-top: 46.4px;    
+    margin-top: 46.4px;
     padding-top: 50%;
-    position: relative;    
+    position: relative;
 }
+
 #slider .text-content {
     position: absolute;
     bottom: 47px;
@@ -106,16 +117,18 @@ html
     font-size: 15px;
     font-weight: 700;
 }
+
 #slider .text-description {
     margin-top: 25px;
 }
+
 #content .content-selection {
     width: 784px;
     max-width: 100%;
     margin: 0 auto;
     padding: 64px 16px;
-
 }
+
 .selection-heading {
     text-align: center;
     margin: 10px 0px;
@@ -124,7 +137,6 @@ html
     line-height: 45px;
     letter-spacing: 4px;
     text-transform: uppercase;
-    
 }
 
 .selection-sub-heading {
@@ -135,72 +147,73 @@ html
     font-style: italic;
     text-transform: capitalize;
 }
+
 .about-text {
     margin: 15px 0px;
     font-size: 15px;
     line-height: 22.5px;
-
     text-align: justify;
-    
 }
+
 .member-list {
     padding: 32px 0;
 }
+
 .member-list .member-item {
     float: left;
     width: calc(100% / 3);
     text-align: center;
-
-    
-
 }
-.member-item .name-member{
+
+.member-item .name-member {
     margin: 15px 0;
     line-height: 22.5px;
     font-size: 15px;
     font-weight: 500;
     text-transform: capitalize;
-
 }
+
 .member-item .img-member {
     width: 154px;
     border-radius: 4px;
 }
-.tour-selection{
+
+.tour-selection {
     padding: 64px 0;
     background: #000;
-    
 }
-.tour-selection .selection-heading{
+
+.tour-selection .selection-heading {
     font-size: 30px;
     font-weight: 400;
     letter-spacing: 4px;
     line-height: 45px;
     color: #fff;
 }
-.tour-selection .selection-sub-heading{
-    margin: 30px 0; 
+
+.tour-selection .selection-sub-heading {
+    margin: 30px 0;
     font-size: 15px;
     font-style: italic;
-    color:#fff;
+    color: #fff;
     opacity: 0.6;
-
-
 }
+
 .tickets-list {
     margin: 40px 0;
     background: #fff;
     border: 1px solids;
 }
+
 .tickets-list li {
     padding: 12px 15px;
     font-size: 15px;
     font-weight: 500;
     color: #757575;
     list-style-type: none;
-    border-bottom: 1px solid #ddd ; 
-    
+    border-bottom: 1px solid #ddd;
 }
+
 .tickets-list .sold-out {
     margin: 0 16px;
     padding: 4px 8px;
@@ -209,7 +222,8 @@ html
     background-color: #f44336;
     display: inline-block;
 }
-.tickets-list .quantity{
+
+.tickets-list .quantity {
     float: right;
     width: 24px;
     height: 24px;
@@ -220,87 +234,93 @@ html
     border-radius: 50%;
     margin-right: 16px;
 }
-.place-list{
+
+.place-list {
     margin: 32px -8px !important
 }
 
-.place-item{
+.place-item {
     float: left;
     width: calc(100% /3);
     padding: 0 8px;
 }
+
 .place-img {
     width: 100%;
 }
+
 .place-img:hover {
     opacity: 0.6;
 }
-.place-body{
+
+.place-body {
     background: #fff;
     padding: 16px 16px;
     margin-top: -4px;
 }
 
-.place-heading{
+.place-heading {
     padding: 15px 0;
     line-height: 22.5px;
     font-size: 15px;
     text-transform: capitalize;
-
 }
 
-.place-date{
-    padding-bottom:15px;
+.place-date {
+    padding-bottom: 15px;
     line-height: 22.5px;
     font-size: 15px;
     text-transform: capitalize;
     opacity: 0.6;
 }
 
-.place-text{
-    margin-bottom: 30px;    
+.place-text {
+    margin-bottom: 30px;
     line-height: 22.5px;
-   
     font-size: 15px;
     text-transform: inherit;
-
 }
+
 .place-body a {
     padding: 11px 16px;
     background: #000;
     color: #fff;
     text-transform: capitalize;
     display: inline-block;
-
 }
+
 .place-body a:hover {
     color: #000;
     background: #ccc;
+}
 
-}
 .body-contact {
-    margin: 50px 0;
+    margin-top: 50px;
 }
+
 .contact-body-one {
-    display: inline-block ;
+    display: inline-block;
     line-height: 23.2px;
 }
-.contact-body-one i
-{
+
+.contact-body-one i {
     width: 20px;
 }
-.contact-body-two{
+
+.contact-body-two {
     float: right;
 }
-.contact-body-two .ip-info-1 input{
+
+.contact-body-two .ip-info-1 input {
     padding: 8px;
     margin-bottom: 15px;
 }
-.contact-body-two .ip-info-2 input{
+
+.contact-body-two .ip-info-2 input {
     padding: 8px;
     width: 100%;
-
 }
+
 .btn-send {
     margin: 15px 0;
     padding: 11px 15px;
@@ -309,24 +329,28 @@ html
     color: #fff;
     border: none;
 }
+
 .btn-send:hover {
     background: #ccc;
     color: #000;
 }
+
 #content>img {
-    filter:grayscale(50%)
+    filter: grayscale(50%)
 }
+
 #footer {
     padding: 64px 16px;
     text-align: center;
     opacity: 0.6;
-
 }
-#footer i{
+
+#footer i {
     font-size: 24px;
 }
+
 #footer p {
     margin: 15px 0;
-    font-size: 15px ;
+    font-size: 15px;
     text-decoration: none;
 }
